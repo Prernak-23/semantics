@@ -1,0 +1,182 @@
+<style>
+body
+{
+margin: 0;
+}
+.outer_container
+{
+	margin-left: 90px;
+	margin-right: 90px;
+	border: 8px solid silver;
+}
+.header
+{
+display:flex;
+}
+.header > .header_left
+{
+width:20%;
+margin-left:260px;
+}
+.header > .header_left img
+{
+	width: 70px;
+	height:70px;
+	margin-top: 5px;	
+}
+.header > .header_right
+{
+width:80%;
+color:purple;
+
+}
+.header > .header_right h1
+{
+font-family:roman;
+text-transform: uppercase;
+
+}
+hr
+{
+	color: silver;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+h6
+{
+	text-align: center;
+}
+
+.conatiner_top
+{
+display: flex;
+}
+.container_top h5
+{
+    margin-left: 80px;
+	margin-right: 80px;
+
+}
+.container_top p
+{
+    margin-left: 80px;
+	margin-right: 80px;
+	
+}
+.container_main
+{
+display: flex;	
+}
+.container_main >.container_left 
+{
+	width:50%;
+	
+}
+.container_main >.container_left >img	 
+{
+	width:73%;
+	height:85%;
+	margin-left:90px;
+}
+.container_main >.container_left h5
+{
+
+}
+.container_main >.container_left p
+{
+font-size: 11px
+}
+.container_main > .container_right
+{
+	width:50%;
+
+}	
+.container_main > .container_right >img
+{
+	margin-left: 5px;
+     width:73%;
+     height:41%;
+}
+.container_main > .container_right h5
+{
+	margin-left:10px;
+
+}
+.container_main > .container_right p
+{
+font-size: 11px;
+margin-left: 10px;
+
+}
+.images
+{
+	display:flex;
+	background-color: silver;
+	margin-top: 80px;
+}
+.images > .left_image
+{
+ width:50%;
+}
+.images > .left_image img
+{
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-bottom: 10px;
+}
+.images > .right_image
+{
+width: 50%;
+}
+.images > .right_image > img
+{
+	margin-top: 40px;
+	margin-left: 20px;
+    margin-bottom: 10px;
+}
+.text_container
+{
+display: flex;
+}
+.text_container_left
+{
+width:50%;
+}
+.text_container_left >p
+{
+	font-size: 11px;
+}
+.text_container_right
+{
+width:50%;
+}
+.text_container_right >p
+{
+	font-size: 11px;
+}
+.logos
+{
+	background-image:linear-gradient(to right ,pink,purple,blue);
+	display: flex;
+}
+.logos >.left
+{
+	width:50%;
+}
+.logos > .left img
+{
+margin-left:30px;
+margin-right:30px;
+margin-top: 30px;
+margin-bottom:30px;
+}
+.logos > .right
+{
+	width: 50%;
+}
+.logos > .right img
+{
+margin-top: 15px;
+margin-left: 10px;
+}
+</style>
